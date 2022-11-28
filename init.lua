@@ -1,4 +1,4 @@
-require("plugins")
+require("umong51/plugins")
 require("umong51/telescope")
 require("umong51/nvim-tree")
 
