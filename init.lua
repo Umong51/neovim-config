@@ -1,5 +1,6 @@
 require("umong51/plugins")
 require("umong51/bufferline")
+require("umong51/cmp")
 require("umong51/comment")
 require("umong51/lspconfig")
 require("umong51/lualine")
@@ -14,7 +15,6 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 vim.opt.mouse = nil
-
 vim.cmd([[au Filetype python setl et ts=4 sw=4]])
 
 -- Colorscheme

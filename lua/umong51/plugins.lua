@@ -30,4 +30,10 @@ packer.startup(function(use)
 
   use 'numToStr/Comment.nvim'
 
+  use "onsails/lspkind-nvim"
+  use "hrsh7th/nvim-cmp"
+  use "hrsh7th/cmp-buffer"
+  use "hrsh7th/cmp-nvim-lsp"
+  use "L3MON4D3/LuaSnip"
+
 end)
