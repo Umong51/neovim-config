@@ -1,10 +1,16 @@
-require("mason").setup()
-require("mason-lspconfig").setup()
-require("mason-lspconfig").setup({
+local status, mason = pcall(require, "mason")
+if (not status) then return end
+local status2, lspconfig = pcall(require, "mason-lspconfig")
+if (not status2) then return end
+local status3, nvim_lspconfig = pcall(require, "lspconfig")
+if (not status3) then return end
+
+mason.setup()
+lspconfig.setup({
   ensure_installed = { "sumneko_lua", "pyright" }
 })
 
-require'lspconfig'.sumneko_lua.setup {
+nvim_lspconfig.sumneko_lua.setup {
   settings = {
     Lua = {
       runtime = {
@@ -27,5 +33,5 @@ require'lspconfig'.sumneko_lua.setup {
   },
 }
 
-require'lspconfig'.pyright.setup{}
+nvim_lspconfig.pyright.setup{}
 

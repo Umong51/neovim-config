@@ -1,4 +1,10 @@
-return require('packer').startup(function(use)
+local status, packer = pcall(require, "packer")
+if (not status) then
+  print("Packer is not installed")
+  return
+end
+
+packer.startup(function(use)
 
   use 'wbthomason/packer.nvim'
   use "gruvbox-community/gruvbox"
