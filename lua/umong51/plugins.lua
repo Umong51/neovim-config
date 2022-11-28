@@ -16,4 +16,10 @@ return require('packer').startup(function(use)
     use 'nvim-lualine/lualine.nvim'
     use 'akinsho/bufferline.nvim'
 
+    use {
+        "williamboman/mason.nvim",
+        "williamboman/mason-lspconfig.nvim",
+        "neovim/nvim-lspconfig",
+    }
+
 end)
