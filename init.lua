@@ -1,5 +1,6 @@
 require("umong51/plugins")
 require("umong51/bufferline")
+require("umong51/comment")
 require("umong51/lspconfig")
 require("umong51/lualine")
 require("umong51/mason")
