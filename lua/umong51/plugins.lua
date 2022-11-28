@@ -14,4 +14,6 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
     use 'nvim-lualine/lualine.nvim'
+    use 'akinsho/bufferline.nvim'
+
 end)
