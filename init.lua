@@ -2,6 +2,7 @@ require("umong51/plugins")
 require("umong51/telescope")
 require("umong51/nvim-tree")
 require("umong51/nvim-treesitter")
+require("umong51/lualine")
 
 vim.opt.number = true
 vim.opt.relativenumber = true
