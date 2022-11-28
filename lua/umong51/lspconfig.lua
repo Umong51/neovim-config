@@ -1,14 +1,5 @@
-local status, mason = pcall(require, "mason")
+local status, nvim_lspconfig = pcall(require, "lspconfig")
 if (not status) then return end
-local status2, lspconfig = pcall(require, "mason-lspconfig")
-if (not status2) then return end
-local status3, nvim_lspconfig = pcall(require, "lspconfig")
-if (not status3) then return end
-
-mason.setup()
-lspconfig.setup({
-  ensure_installed = { "sumneko_lua", "pyright" }
-})
 
 nvim_lspconfig.sumneko_lua.setup {
   settings = {
