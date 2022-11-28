@@ -4,6 +4,10 @@ return require('packer').startup(function(use)
     use "gruvbox-community/gruvbox"
     use 'nvim-tree/nvim-web-devicons'
     use 'nvim-tree/nvim-tree.lua'
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = function() require("nvim-treesitter.install").update { with_sync = true } end
+	}
 
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
