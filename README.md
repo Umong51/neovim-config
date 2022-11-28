@@ -3,7 +3,13 @@
 
 ## Try out this config
 Requires [Neovim](https://neovim.io/) (>= 0.8)\
-Make sure to remove or move your current ``nvim`` directory
+Make sure to remove or move your current ``nvim`` directory\
 ```
 git clone https://github.com/Umong51/neovim-config ~/.config/nvim
+```
+## Install plugin manager: Packer
+Install [Packer](https://github.com/wbthomason/packer.nvim) by running the below command:
+```
+git clone --depth 1 https://github.com/wbthomason/packer.nvim \
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
