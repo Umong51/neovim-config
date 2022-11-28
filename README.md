@@ -5,7 +5,7 @@
 Requires [Neovim](https://neovim.io/) (>= 0.8)\
 Make sure to remove or move your current ``nvim`` directory\
 ```
-git clone https://github.com/Umong51/neovim-config ~/.config/nvim
+git clone https://github.com/Umong51/neovim-config ~/.config/nvim --depth=1
 ```
 ## Install plugin manager: Packer
 Install [Packer](https://github.com/wbthomason/packer.nvim) by running the below command:
