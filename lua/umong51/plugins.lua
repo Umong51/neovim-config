@@ -13,11 +13,11 @@ packer.startup(function(use)
   use {
     'nvim-treesitter/nvim-treesitter',
     run = function() require("nvim-treesitter.install").update { with_sync = true } end
-	}
+  }
 
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.0',
-    requires = { {'nvim-lua/plenary.nvim'} }
+    requires = { { 'nvim-lua/plenary.nvim' } }
   }
   use 'nvim-lualine/lualine.nvim'
   use 'akinsho/bufferline.nvim'
@@ -35,5 +35,7 @@ packer.startup(function(use)
   use "hrsh7th/cmp-buffer"
   use "hrsh7th/cmp-nvim-lsp"
   use "L3MON4D3/LuaSnip"
+
+  use 'lewis6991/gitsigns.nvim'
 
 end)
