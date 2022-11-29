@@ -6,4 +6,4 @@ vim.g.loaded_netrwPlugin = 1
 
 nvim_tree.setup()
 
-vim.api.nvim_set_keymap("n", "<Leader>e", ":NvimTreeToggle<cr>", { silent = true })
+vim.keymap.set("n", "<Leader>e", ":NvimTreeToggle<cr>", { silent = true })

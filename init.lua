@@ -18,6 +18,7 @@ vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 vim.opt.mouse = nil
 vim.cmd([[au Filetype python setl et ts=4 sw=4]])
+vim.keymap.set('n', '<esc>', ':noh<cr><esc>', { silent = true })
 
 -- Colorscheme
 vim.o.background = "dark" -- or "light" for light mode
