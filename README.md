@@ -25,6 +25,6 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim \
 |`:Lspsaga peek_definition`     |     `gd`                    |
 |  `:Lspsaga rename`            |     `gr`                    |
 |`:Lspsaga hover_doc`           |     `K`                     |
-|`:Lspsaga code_action`         |     `<leader>ca             |
+|`:Lspsaga code_action`         |     `<leader>ca`            |
 |`:Lspsaga diagnostic_jump_prev`|     `[e`                    |
 |`:Lspsaga diagnostic_jump_next`|     `]e`                    |
