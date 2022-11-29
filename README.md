@@ -13,3 +13,16 @@ Install [Packer](https://github.com/wbthomason/packer.nvim) by running the below
 git clone --depth 1 https://github.com/wbthomason/packer.nvim \
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
+## Keybindings
+
+|          Command              |           Keymap            |
+|-------------------------------|-----------------------------|
+|  `:Telescope find_files`      |     `<leader>ff`            |
+|  `:Telescope live_grep`       |     `<leader>fg`            |
+|  `:Telescope buffers`         |     `<leader>fb`            |
+|  `:Telescope help_tags`       |     `<leader>fh`            |
+|  `:NvimTreeToggle`            |     `<leader>e`             |
+|`:Lspsaga peek_definition`     |     `gd`                    |
+|  `:Lspsaga rename`            |     `gr`                    |
+|`:Lspsaga diagnostic_jump_prev`|     `[e`                    |
+|`:Lspsaga diagnostic_jump_next`|     `]e`                    |
