@@ -20,9 +20,9 @@ saga.init_lsp_saga({
 })
 
 keymap("n", "gd", "<cmd>Lspsaga peek_definition<CR>", { silent = true })
-
--- Rename
 keymap("n", "gr", "<cmd>Lspsaga rename<CR>", { silent = true })
+keymap("n", "K", "<cmd>Lspsaga hover_doc<CR>", { silent = true })
+keymap({ "n", "v" }, "<leader>ca", "<cmd>Lspsaga code_action<CR>", { silent = true })
 
 -- Diagnsotic jump can use `<c-o>` to jump back
 keymap("n", "[e", "<cmd>Lspsaga diagnostic_jump_prev<CR>", { silent = true })
