@@ -24,10 +24,15 @@ cmp.setup({
   }),
   formatting = {
     format = lspkind.cmp_format({ mode = 'symbol', maxwidth = 50 })
-  }
+  },
+  window = {
+    completion = cmp.config.window.bordered(),
+    documentation = cmp.config.window.bordered()
+  },
 })
 
 vim.cmd [[
   set completeopt=menuone,noinsert,noselect
   highlight! default link CmpItemKind CmpItemMenuDefault
+  :highlight clear Pmenu
 ]]

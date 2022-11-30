@@ -1,5 +1,7 @@
 require("umong51.plugins")
 require("umong51.autopairs")
+require("umong51.plugins")
+require("umong51.autopairs")
 require("umong51.bufferline")
 require("umong51.cmp")
 require("umong51.comment")
@@ -23,4 +25,8 @@ vim.keymap.set('n', '<esc>', ':noh<cr><esc>', { silent = true })
 
 -- Colorscheme
 vim.o.background = "dark"
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd("colorscheme gruvbox")
+
+-- Transparent
+vim.cmd("let g:gruvbox_transparent_bg = 1")
+vim.cmd("autocmd VimEnter * hi Normal ctermbg=NONE guibg=NONE")
