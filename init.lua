@@ -1,4 +1,5 @@
 require("umong51.plugins")
+require("umong51.autopairs")
 require("umong51.bufferline")
 require("umong51.cmp")
 require("umong51.comment")
