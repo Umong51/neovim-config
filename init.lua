@@ -1,7 +1,5 @@
 require("umong51.plugins")
 require("umong51.autopairs")
-require("umong51.plugins")
-require("umong51.autopairs")
 require("umong51.bufferline")
 require("umong51.cmp")
 require("umong51.comment")
@@ -12,6 +10,7 @@ require("umong51.lsp.mason")
 require("umong51.lualine")
 require("umong51.nvim-tree")
 require("umong51.nvim-treesitter")
+require("umong51.plugins")
 require("umong51.telescope")
 
 vim.opt.number = true

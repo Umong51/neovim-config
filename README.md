@@ -28,3 +28,11 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim \
 |`:Lspsaga code_action`         |     `<leader>ca`            |
 |`:Lspsaga diagnostic_jump_prev`|     `[e`                    |
 |`:Lspsaga diagnostic_jump_next`|     `]e`                    |
+
+## VimTex Requirements (Optional)
+```
+sudo apt-get install libsynctex-dev
+sudo apt-get install libgtk-3-dev
+sudo apt-get install latexmk
+
+```

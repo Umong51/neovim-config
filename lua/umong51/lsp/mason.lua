@@ -5,5 +5,5 @@ if (not mason_lspconfig_status) then return end
 
 mason.setup()
 mason_lspconfig.setup({
-  ensure_installed = { "sumneko_lua", "pyright", "clangd" }
+  ensure_installed = { "sumneko_lua", "pyright", "clangd", "texlab" }
 })

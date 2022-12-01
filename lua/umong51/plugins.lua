@@ -40,5 +40,6 @@ packer.startup(function(use)
 
   use 'glepnir/lspsaga.nvim'
   use 'windwp/nvim-autopairs'
+  use 'lervag/vimtex'
 
 end)
